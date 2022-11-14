@@ -1,17 +1,13 @@
 import React from "react";
-import logo from "./logo.png";
 import "./App.css";
+import Table from "./Components/Table_main";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <p> Testing deployment</p>
+          <Table />
         </header>
       </div>
     );
